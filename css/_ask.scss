@@ -1,0 +1,43 @@
+.ask {
+    margin-top: 60px;
+    &-form {
+        padding: 30px 40px;
+        background-color: #6D62CA;
+        box-sizing: border-box;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    &-desc {
+        color: #FFFFFF;
+        font-weight: 600;
+        border-right: 1px solid #eee;
+        span {
+            color: #FF9B52;
+        }
+        h4 {
+            font-size: 36px;
+        }
+    }
+    &-form {
+        input {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+    }
+    .btn-kirim {
+        background-color: #fff;
+        color: #FF9B52;
+        display: inline-block;
+        padding: 10px 70px;
+        border-radius: 10px;
+        box-sizing: border-box;
+        font-weight: 500;
+        text-align: right;
+        box-shadow: 2px 3px 8px 3px #ffffff8f;
+        i {
+            font-size: 20px;
+        }
+    }
+}

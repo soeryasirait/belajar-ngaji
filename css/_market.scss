@@ -1,0 +1,41 @@
+.market {
+    padding: 80px;
+    &-desc {
+        color: #fff;
+        span {
+            color: #FFCB2A;
+        }
+        p {
+            color: #EDEDED;
+        }
+    }
+    &-place {
+        background-color: #fff;
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 20px;
+        box-sizing: border-box;
+    }
+    &-quran {
+        margin-top: 230px;
+        position: relative;
+        img {
+            position: absolute;
+            bottom: 56px;
+            right: 53px;
+        }
+        background-color: #fff;
+        padding: 130px 0 10px 0;
+        border-radius: 20px;
+        text-align: center;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px #00000021;
+        .desc {
+            color: #456580;
+            h4,
+            p {
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.navbar {
+    padding-top: 20px;
+    &-nav {
+        .nav-item {
+            margin-left: 20px;
+            .nav-link {
+                color: #fff;
+                font-weight: 600;
+            }
+            .nav-link.btn-regist {
+                padding: 5px 40px;
+                border: 2px solid #eee;
+                box-sizing: border-box;
+                border-radius: 30px;
+            }
+            .nav-link.btn-login {
+                padding: 5px 40px;
+                box-sizing: border-box;
+                border-radius: 30px;
+                background-color: #fff;
+                color: #FF9B52;
+                font-weight: 700;
+            }
+        }
+    }
+}

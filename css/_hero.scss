@@ -1,0 +1,28 @@
+.hero {
+    margin-top: 90px;
+    &-desc {
+        h1 {
+            font-size: 57px;
+            font-weight: 800;
+        }
+        .action {
+            margin-top: 40px;
+        }
+        .btn {
+            background-color: #ffffff;
+            border: none;
+            color: #428EFE;
+            padding: 10px 30px;
+            font-size: 25px;
+            border-radius: 20px;
+            box-shadow: -7px 9px 20px 6px rgba(255, 255, 255, 0.29);
+            -webkit-box-shadow: -7px 9px 20px 6px rgba(255, 255, 255, 0.29);
+            -moz-box-shadow: -7px 9px 20px 6px rgba(255, 255, 255, 0.29);
+            font-weight: 600;
+            cursor: pointer;
+            i {
+                font-size: 25px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.activities {
+    margin-top: 50px;
+    background-image: url('../assets/img/bg-footer.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 0 350px 0;
+    box-sizing: border-box;
+    &-service {
+        position: relative;
+        .desc {
+            position: absolute;
+            bottom: 0;
+            left: 10px;
+            color: #ffff;
+        }
+        .title {
+            h5 {
+                font-size: 24px;
+                color: #428EFE;
+            }
+            h4 {
+                color: #FF9348;
+                font-size: 36px;
+            }
+            p {
+                line-height: 160%;
+                color: #456580;
+                font-size: 16px;
+            }
+        }
+    }
+}
